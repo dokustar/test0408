@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dongha/github/test0408/dongha.cpp
+dongha.h
+-
+
+/home/dongha/github/test0408/dongha.h
+
+/home/dongha/github/test0408/main.cpp
+iostream
+-
+dongha.h
+/home/dongha/github/test0408/dongha.h
+
+dongha.h
+
